@@ -1,0 +1,23 @@
+{
+  "name": "edu_vue_introduction",
+  "version": "1.0.0",
+  "description": "▶ jQuery vs VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GanangPrakoso/edu_vue_introduction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GanangPrakoso/edu_vue_introduction/issues"
+  },
+  "homepage": "https://github.com/GanangPrakoso/edu_vue_introduction#readme",
+  "devDependencies": {
+    "vite": "^3.1.3"
+  }
+}
