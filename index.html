@@ -34,7 +34,7 @@
     </nav>
 
     <!-- LOGIN PAGE -->
-    <!-- <section
+    <section
       id="login-page"
       style="width: 40vw; margin: auto; margin-top: 20px"
     >
@@ -64,7 +64,7 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-    </section> -->
+    </section>
 
     <!-- HOME PAGE -->
     <section id="home-page" style="width: 50%; margin: auto; margin-top: 20px">
@@ -82,14 +82,17 @@
       <table class="table table-striped container">
         <thead>
           <tr>
+            <th scope="col">ID</th>
             <th scope="col">Image</th>
             <th scope="col">Title</th>
             <th scope="col">Description</th>
+            <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody id="table-body">
           <!-- TABLE ROW -->
           <tr>
+            <td><h5>1</h5></td>
             <td>
               <img
                 src="https://i.pinimg.com/originals/f8/0a/35/f80a3595f384622c45242d0da7c0b3bf.jpg"
@@ -97,7 +100,10 @@
               />
             </td>
             <td>Lisa Blackpink</td>
-            <td>Foto ijazah</td>
+            <td>People</td>
+            <td>
+              <button class="btn btn-danger">delete</button>
+            </td>
           </tr>
           <!-- TABLE ROW -->
         </tbody>
@@ -105,6 +111,31 @@
     </section>
     <!--  -->
 
+    <!-- CREATE PAGE -->
+    <section
+      id="create-page"
+      style="width: 40vw; margin: auto; margin-top: 20px; margin-bottom: 40px"
+    >
+      <h1>Create Page</h1>
+      <form id="form-create">
+        <div class="mb-3">
+          <label class="form-label">Image Url</label>
+          <input id="image-url" type="text" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Title</label>
+          <input id="title" type="text" class="form-control" />
+        </div>
+        <label class="form-label">Description</label>
+        <select class="form-select" style="margin-bottom: 20px">
+          <option selected>-- select description --</option>
+          <option value="People">People</option>
+          <option value="Film">Film</option>
+          <option value="Other">Other</option>
+        </select>
+        <button type="submit" class="btn btn-success">Add!</button>
+      </form>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
