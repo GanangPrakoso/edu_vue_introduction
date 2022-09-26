@@ -49,18 +49,11 @@
             class="form-control"
             id="input-login-email"
             aria-describedby="emailHelp"
+            required
           />
           <div id="emailHelp" class="form-text">
             We'll never share your email with anyone else.
           </div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="input-login-password"
-          />
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
@@ -127,7 +120,7 @@
           <input id="title" type="text" class="form-control" />
         </div>
         <label class="form-label">Description</label>
-        <select class="form-select" style="margin-bottom: 20px">
+        <select class="form-select mb-4">
           <option selected>-- select description --</option>
           <option value="People">People</option>
           <option value="Film">Film</option>
